@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sewon Sohn - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.2em;
+    }
+    h2 {
+      margin-top: 2em;
+      font-size: 1.5rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.2em;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul.projects li,
+    ul.experience li {
+      margin-bottom: 1rem;
+    }
+    #contact li {
+      margin-bottom: 8px;
+    }
+    #contact i {
+      margin-right: 6px;
+      /* color: #007bff; */
+}
+  </style>
+</head>
+<body>
+
+  <div class="text-center">
+    <img src="profile.jpg" alt="Profile photo of Sewon" class="profile-pic">
+    <h1>Sewon Sohn</h1>
+    <p class="lead">CS Graduate · Aspiring Full-Stack Developer</p>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a recent Computer Science graduate from the <strong>University of Oregon</strong> with experience in full-stack development and AI-driven tooling. I enjoy building intuitive, practical tools that solve real-world problems, and I'm drawn to emerging technologies in AI.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <p><strong>Languages:</strong> Python, C, JavaScript, HTML, CSS</p>
+    <p><strong>Frameworks & Tools:</strong> Flask, Node.js, MongoDB, Docker, Bootstrap, ruamel.yaml, BeautifulSoup, OpenCV, Socket.IO</p>
+    <p><strong>Spoken Languages:</strong> Korean (native), English (fluent), French (conversational)</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul class="projects">
+      <li>
+        <strong>Eco-CI Integration Project (2025)</strong><br>
+        Collaborated with Intel engineers to reduce CI/CD pipeline emissions. Developed a Python script using <code>ruamel.yaml</code> to automatically integrate Eco-CI into GitHub Actions and stored metrics in a PostgreSQL database.<br>
+        <a href="https://github.com/DaxLynch/ecocli-utility" target="_blank">[GitHub]</a>
+      </li>
+
+      <li>
+        <strong>Class Schedule Planner – QuackHacks Hackathon (2025)</strong><br>
+        Flask app that identifies common free times across uploaded class schedules. Used BeautifulSoup for HTML parsing. Developed backend logic and collaborated in a five-person team using AI-assisted coding tools.<br>
+        <a href="https://github.com/greatcomet1812/Super-Swag-Schedule-Scheduler" target="_blank">[GitHub]</a>
+      </li>
+
+      <li>
+        <strong>Petition Digitization App – HackUO (2024, Honorable Mention)</strong><br>
+        Full-stack app that extracts text from handwritten PDF petitions. Built a preprocessing pipeline with OpenCV and PIL to improve OCR quality.<br>
+        <a href="https://github.com/kobepane/FormFlowClient" target="_blank">[GitHub]</a>
+      </li>
+
+      <li>
+        <strong>Plant Recognition Web App (2024)</strong><br>
+        Node.js + MongoDB app for recording, viewing, and discussing plant sightings. Built real-time chat with Socket.IO, user auth for edits, and access control based on plant status.<br>
+        <a href="https://github.com/greatcomet1812/plant-recognition-app" target="_blank">[GitHub]</a>
+      </li>
+
+      <li>
+        <strong>Brevet Time Calculator (2023)</strong><br>
+        Flask API + frontend for calculating open/close times of cycling checkpoints. Used MongoDB for data storage and Docker Compose for deployment.<br>
+        <a href="https://github.com/greatcomet1812/brevet-time-calculator" target="_blank">[GitHub]</a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul class="experience">
+      <li>
+        <strong>AI-Driven Software Development Interest Group – University of Oregon (Oct 2024 – Present)</strong><br>
+        Worked with a professor-selected team to explore AI-assisted programming using tools like ChatGPT, Cursor, and bolt.new.
+      </li>
+
+      <li>
+        <strong>Learning Assistant – University of Oregon CS Dept (Sep 2022 – May 2023)</strong><br>
+        Supported students in C/Unix/data structures course. Led weekly office hours and worked with faculty to improve instruction through feedback and debugging support.
+      </li>
+
+      <li>
+        <strong>Marketing Director – iNight, International Student Association (2022–2023)</strong><br>
+        Organized branding and promotion for a cultural showcase that drew 200+ attendees. Managed social media and team operations.
+        <br><a href="https://instagram.com/uoisa" target="_blank">[ISA Instagram]</a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact">
+  <h2>Contact</h2>
+  <ul class="list-unstyled">
+    <li><i class="bi bi-envelope-fill"></i> Email: <a href="mailto:sewonsohn00@gmail.com">sewonsohn00@gmail.com</a></li>
+    <li><i class="bi bi-telephone-fill"></i> Phone: +1 (458) 273-7910</li>
+    <li><i class="bi bi-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/sewon-sohn-7bbb521ab/" target="_blank">sewon-sohn</a></li>
+    <li><i class="bi bi-github"></i> GitHub: <a href="https://github.com/greatcomet1812" target="_blank">@greatcomet1812</a></li>
+    <li><i class="bi bi-twitter"></i> Twitter: <a href="https://twitter.com/sewon__sohn" target="_blank">@sewon__sohn</a></li>
+    <li><i class="bi bi-file-earmark-person"></i> <a href="resume.pdf" target="_blank">Download Resume</a></li>
+  </ul>
+</section>
+
+</body>
+</html>
