@@ -13,153 +13,135 @@
   <div class="text-center">
     <img src="profile.jpg" alt="Profile photo of Sewon" class="profile-pic">
     <h1>Sewon Sohn</h1>
-    <p class="lead">CS Graduate · Backend/Infra Developer</p>
+    <p class="lead">Software Engineer</p>
   </div>
 
+  <!-- About -->
   <section id="about">
     <h2>About Me</h2>
     <p>
-      I'm a Computer Science graduate who likes to build working systems. I’ve collaborated with Intel engineers to automate CI/CD emissions tracking, and I’ve built my own local LLM pipeline from scratch—including scraping, embedding, and querying markdown docs through a custom RAG setup.
+      Hi!👋 I’m a software engineer with a U.S. academic background and recent experience at Applications Technology Group, where I contributed to the backend of an AI legal assistant as part of an internal startup initiative.
     </p>
     <p>
-      I tend to work behind the scenes—writing scripts, wiring services together, and making tools more usable. I learn fast, iterate thoroughly, and care a lot about code that does what it’s supposed to do. 
+      My recent work includes a local AI-based university assistant (personal project) and a CI/CD carbon impact measurement project in collaboration with Intel.<br>
     </p>
   </section>
 
 
+  <!-- Projects -->
   <section id="projects">
     <h2>Projects</h2>
-    <ul class="projects">
+    <ul class="projects">    
       <li>
-        <strong>Eco-CI Integration Project (2025)</strong><br>
-        Collaborated with Intel engineers to reduce CI/CD pipeline emissions.<br>
-        Developed a Python script using <code>ruamel.yaml</code> to automatically integrate Eco-CI into GitHub Actions and stored metrics in a PostgreSQL database.<br>
-        <a href="https://github.com/DaxLynch/ecocli-utility" target="_blank">[GitHub]</a>
+        <span style="float: right;">Nov, 2025</span>
+        <strong>Legal AI Assistant</strong><br>
+        <small class="text-muted">Applications Technology Group (Norcross, GA, USA)</small>
+        <div>
+          Contributed to backend development of an RAG-based legal assistant MVP.<br>
+          Implemented case creation logic in Go based on chatbot conversations.
+        </div>
       </li>
-
       <li>
-        <strong>Local RAG Assistant (2025)</strong><br>
-        Initiated as a solo follow-up to a professor-selected team exploring AI-assisted software development tools.<br>
-        Developed a fully local Retrieval-Augmented Generation (RAG) demo to solidify core understanding of LLM pipelines.<br>
-        Used Ollama, FAISS, <code>nomic-embed-text</code>, and Streamlit to process markdown-based university data, generate vector embeddings, and enable local Q&A with Mistral.<br>
-        <a href="https://github.com/greatcomet1812/rag-demo" target="_blank">[GitHub]</a>
+        <span style="float: right;">2025</span>
+        <strong>University AI Assistant</strong><br>
+        <small class="text-muted">Personal Project</small>
+        <div>
+          Built a full-stack web app to answer university-specific queries using a local RAG-based retrieval pipeline.<br>
+          Integrated Ollama (Mistral LLM) with FAISS for semantic retrieval and Streamlit for the user interface.<br> 
+        </div>
+        <a href="https://github.com/greatcomet1812/rag-demo" target="_blank" class="btn btn-sm btn-light mt-1">
+          <i class="bi bi-github"></i> GitHub
+        </a>
       </li>
-
       <li>
-        <strong>Class Schedule Planner – QuackHacks (24-hr Hackathon, 2025)</strong><br>
-        Flask app that identifies common free times across uploaded class schedules.<br> 
-        Used BeautifulSoup for HTML parsing. Developed backend logic and collaborated in a five-person team using AI-assisted coding tools.<br>
-        <a href="https://github.com/greatcomet1812/Super-Swag-Schedule-Scheduler" target="_blank">[GitHub]</a>
+        <span style="float: right;">2025</span>
+        <strong>CI/CD Carbon Impact Measurement</strong><br>
+        <small class="text-muted">Intel Collaboration</small>
+        <div>
+          Worked with Intel engineers to measure and analyze the carbon emissions of CI/CD pipelines, using <a href="https://github.com/marketplace/actions/eco-ci-energy-estimation">Eco CI</a>.<br>
+          Automated energy tracking across 30+ GitHub workflows using Python, storing data in PostgreSQL.<br>
+        </div>
+        <a href="https://github.com/DaxLynch/ecocli-utility" target="_blank" class="btn btn-sm btn-light mt-1">
+          <i class="bi bi-github"></i> GitHub
+        </a>
       </li>
-
       <li>
-        <strong>Petition Digitization App – HackUO (24-hr Hackathon, 2024) – <i>Honorable Mention</i></strong><br>
-        Full-stack app that extracts text from handwritten PDF petitions.<br> 
-        Built a preprocessing pipeline with OpenCV and PIL to improve OCR quality.<br>
-        <a href="https://github.com/kobepane/FormFlowClient" target="_blank">[GitHub]</a>
-      </li>
-
-      <li>
-        <strong>Plant Recognition Web App (2024)</strong><br>
-        Node.js + MongoDB app for recording, viewing, and discussing plant sightings.<br> 
-        Built real-time chat with Socket.IO, user auth for edits, and access control based on plant status.<br>
-        <a href="https://github.com/greatcomet1812/plant-recognition-app" target="_blank">[GitHub]</a>
-      </li>
-
-      <li>
-        <strong>Brevet Time Calculator (2023)</strong><br>
-        Flask API + frontend for calculating open/close times of cycling checkpoints.<br> 
-        Used MongoDB for data storage and Docker Compose for deployment.<br>
-        <a href="https://github.com/greatcomet1812/brevet-time-calculator" target="_blank">[GitHub]</a>
+        <span style="float: right;">2025</span>
+        <strong>Class Schedule Planner</strong><br>
+        <small class="text-muted">Hackathon</small>
+        <div>
+          Contributed to a full-stack web application to compare student class schedules and identify shared free times.<br>
+          Implemented a Flask backend to parse uploaded HTML schedules and render availability tables using Bootstrap.<br>
+        </div>
+        <a href="https://github.com/greatcomet1812/Super-Swag-Schedule-Scheduler" target="_blank" class="btn btn-sm btn-light mt-1">
+          <i class="bi bi-github"></i> GitHub
+        </a>
       </li>
     </ul>
   </section>
 
 
+  <!-- Skills -->
   <section id="skills" class="mt-4">
-    <h2>Skills</h2>
-
-    <!-- Languages -->
-    <h6 class="text-muted mt-3 mb-2">Languages</h6>
-    <ul class="list-inline">
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">Python</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">C</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">JavaScript</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">HTML</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">CSS</span></li>
-    </ul>
-
-    <!-- Frameworks -->
-    <h6 class="text-muted mt-3 mb-2">Frameworks</h6>
-    <ul class="list-inline">
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">Flask</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">Node.js</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">Express</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">Bootstrap</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">OpenCV</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">ruamel.yaml</span></li>
-    </ul>
-
-    <!-- Tools -->
-    <h6 class="text-muted mt-3 mb-2">Tools</h6>
-    <ul class="list-inline">
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">Docker</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">Docker Compose</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">Git</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">MongoDB</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">PostgreSQL</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">Socket.IO</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">RESTful APIs</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">FAISS</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">nomic-embed-text</span></li>
-      <li class="list-inline-item"><span class="badge bg-light border text-dark">Streamlit</span></li>
-    </ul>
-  </section>
+  <h2>Skills</h2>
+  <ul class="list-inline">
+    <li class="list-inline-item"><span class="badge bg-light border text-dark">Python</span></li>
+    <li class="list-inline-item"><span class="badge bg-light border text-dark">Flask</span></li>
+    <li class="list-inline-item"><span class="badge bg-light border text-dark">JavaScript</span></li>
+    <li class="list-inline-item"><span class="badge bg-light border text-dark">Docker</span></li>
+    <li class="list-inline-item"><span class="badge bg-light border text-dark">Git</span></li>
+    <li class="list-inline-item"><span class="badge bg-light border text-dark">PostgreSQL</span></li>
+    <li class="list-inline-item"><span class="badge bg-light border text-dark">MongoDB</span></li>
+    <li class="list-inline-item"><span class="badge bg-light border text-dark">REST APIs</span></li>
+    <li class="list-inline-item"><span class="badge bg-light border text-dark">Unix</span></li>
+  </ul>
+</section>
 
 
+  <!-- Education -->
   <section id="education">
     <h2>Education</h2>
-    <p><strong>University of Oregon, Eugene, OR</strong> (Sep 2021 – Jun 2025)<br>
-    Bachelor of Science in <strong>Computer Science</strong></p>
-
-    <p><strong>University of Sheffield, Sheffield, UK</strong> (Sep 2023 – Jun 2024)<br>
-    Exchange Program (Computer Science)</p>
-
-    <p><u>Relevant Courses:</u><br>
-    Data Structures, Algorithms, Operating Systems, Software Engineering, Software Testing, Software Reengineering, AI for Networking and Security, Intelligent Web, Linear Algebra</p>
+    <p>
+      <span style="float: right;">2021 - 2025</span>
+      <strong>University of Oregon</strong><br>
+      <small class="text-muted">Eugene, OR, USA</small><br>
+      <i>B.S. in Computer Science</i>
+      <ul class="la">
+        <li class="mt-3 mb-4">
+          <i>
+            <strong>Learning Assistant </strong>
+            <span><small class="text-muted">&nbsp;2022 - 2023</small></span><br>
+            Supported students in C/Unix/Data Structures by holding weekly office hours. 
+          </i>
+        </li>
+      </ul>
+    </p>
+    <p>
+      <span style="float: right;">2023 - 2024</span>
+      <strong>University of Sheffield</strong><br>
+      <small class="text-muted">Sheffield, UK</small><br>
+      <i>Exchange Program (Computer Science)</i>
+    </p>
   </section>
 
-  <section id="experience">
-    <h2>Experience</h2>
-    <ul class="experience">
-      <li>
-        <strong>Learning Assistant</strong> – CS Department, University of Oregon (Sep 2022 – May 2023)<br>
-        Supported students in C/Unix/data structures course. Led weekly office hours and worked with faculty to improve instruction through feedback and debugging support.
-      </li>
 
-      <li>
-        <strong>Marketing Director (iNight) & Executive</strong> – International Student Association, University of Oregon (Jan 2022 – Jun 2023)<br>
-        Organized branding and promotion for a cultural showcase that drew 200+ attendees. Managed social media and team operations.
-        <br><a href="https://instagram.com/uoisa" target="_blank">[ISA Instagram]</a>
-      </li>
-    </ul>
-  </section>
-
-  <!-- Spoken Languages -->
+  <!-- Languages -->
   <section id="languages" class="mt-4">
-    <h2>Spoken Languages</h2>
-    <p>Korean (Native) · English (Professional Working Proficiency) · French (Limited Working Proficiency)</p>
+    <h2>Languages</h2>
+    <p><strong>Korean</strong> (Native) · <strong>English</strong> (Fluent) · <strong>French</strong> (Conversational)</p>
   </section>
 
+
+  <!-- Contact -->
   <section id="contact">
   <h2>Contact</h2>
   <ul class="list-unstyled">
     <li><i class="bi bi-envelope-fill"></i> Email: <a href="mailto:sewonsohn00@gmail.com">sewonsohn00@gmail.com</a></li>
-    <li><i class="bi bi-telephone-fill"></i> Phone: +1 (458) 273-7910</li>
+    <li><i class="bi bi-telephone-fill"></i> Phone: +82 10-6603-1531</li>
     <li><i class="bi bi-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/sewon-sohn-7bbb521ab/" target="_blank">sewon-sohn</a></li>
     <li><i class="bi bi-github"></i> GitHub: <a href="https://github.com/greatcomet1812" target="_blank">@greatcomet1812</a></li>
     <li><i class="bi bi-twitter"></i> Twitter: <a href="https://twitter.com/sewon__sohn" target="_blank">@sewon__sohn</a></li>
-    <li><i class="bi bi-file-earmark-person"></i> <a href="resume.pdf" target="_blank">Download Resume</a></li>
+    <!-- <li><i class="bi bi-file-earmark-person"></i> <a href="resume.pdf" target="_blank">Download Resume</a></li> -->
   </ul>
 </section>
 
