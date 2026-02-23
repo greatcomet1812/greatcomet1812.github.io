@@ -23,7 +23,7 @@
       Hi!👋 I’m a recent Computer Science graduate with hands-on experience building AI-driven backend systems.
     </p>
     <p>
-      My recent work includes contributing to an AI legal assistant, developing a local AI university assistant as a personal project, and integrating energy measurement into GitHub workflows in collaboration with Intel.
+      My recent work includes contributing to a legal AI assistant, developing a local university AI assistant as a personal project, and integrating energy measurement into GitHub workflows in collaboration with Intel.
     </p>
   </section>
 
@@ -31,51 +31,172 @@
   <!-- Projects -->
   <section id="projects">
     <h2>Projects</h2>
-    <ul class="projects">    
-      <li>
-        <span style="float: right;">Nov, 2025</span>
-        <strong>Legal AI Assistant</strong><br>
-        <small class="text-muted">Applications Technology Group (Norcross, GA, USA)</small>
-        <div>
-          Contributed to backend development of an RAG-based legal assistant MVP.<br>
-          Implemented case creation logic in Go based on chatbot conversations.
+
+    <ul class="projects list-unstyled">
+      <!-- Project 1 -->
+      <li class="mb-4 p-3 border rounded">
+        <div class="d-flex justify-content-between align-items-start">
+          <div>
+            <strong>Legal AI Assistant</strong><br>
+            <small class="text-muted">Applications Technology Group (Norcross, GA, USA)</small>
+          </div>
+          <span class="text-muted">Nov, 2025</span>
+        </div>
+
+        <!-- TL;DR -->
+        <div class="mt-2">
+          <div class="text-muted small">TL;DR</div>
+          <div>Backend contributions for an AI legal assistant MVP.</div>
+        </div>
+
+        <!-- Role -->
+        <div class="mt-2">
+          <div class="text-muted small">Role</div>
+          <div>Implemented case creation logic based on chatbot conversations.</div>
+        </div>
+
+        <!-- Stack -->
+        <div class="mt-2">
+          <div class="text-muted small">Stack</div>
+          <div>Go, REST APIs</div>
+        </div>
+
+        <!-- Highlights -->
+        <div class="mt-2">
+          <div class="text-muted small">Highlights</div>
+          <ul class="mb-2">
+            <li>Translated conversation outputs into structured case records.</li>
+            <li>Worked within an internal startup initiative and shipped MVP backend features.</li>
+          </ul>
+        </div>
+
+        <!-- Links -->
+        <div class="mt-2">
+          <a href="#" class="btn btn-sm btn-outline-secondary disabled" aria-disabled="true">
+            <i class="bi bi-file-text"></i> Write-up (Private)
+          </a>
         </div>
       </li>
-      <li>
-        <span style="float: right;">2025</span>
-        <strong>University AI Assistant</strong><br>
-        <small class="text-muted">Personal Project</small>
-        <div>
-          Built a full-stack web app to answer university-specific queries using a local RAG-based retrieval pipeline.<br>
-          Integrated Ollama (Mistral LLM) with FAISS for semantic retrieval and Streamlit for the user interface.<br> 
+
+      <!-- Project 2 -->
+      <li class="mb-4 p-3 border rounded">
+        <div class="d-flex justify-content-between align-items-start">
+          <div>
+            <strong>University AI Assistant</strong><br>
+            <small class="text-muted">Personal Project</small>
+          </div>
+          <span class="text-muted">2025</span>
         </div>
-        <a href="https://github.com/greatcomet1812/rag-demo" target="_blank" class="btn btn-sm btn-light mt-1">
-          <i class="bi bi-github"></i> GitHub
-        </a>
+
+        <!-- TL;DR -->
+        <div class="mt-2">
+          <div class="text-muted small">TL;DR</div>
+          <div>Local AI assistant for answering university-specific questions using a self-built RAG pipeline.</div>
+        </div>
+
+        <div class="mt-2">
+          <div class="text-muted small">Role</div>
+          <div>Designed and implemented the end-to-end retrieval and generation workflow, from document chunking and embedding to LLM responses.</div>
+        </div>
+
+        <div class="mt-2">
+          <div class="text-muted small">Stack</div>
+          <div>Python, FAISS, Ollama (Mistral), Streamlit</div>
+        </div>
+
+        <div class="mt-2">
+          <div class="text-muted small">Highlights</div>
+          <ul class="mb-2">
+            <li>Implemented FAISS-based retrieval over embedded university markdown documents.</li>
+            <li>Displayed retrieved context and source file references alongside LLM responses.</li>
+          </ul>
+        </div>
+
+        <div class="mt-2">
+          <a href="https://github.com/greatcomet1812/rag-demo" target="_blank" class="btn btn-sm btn-light">
+            <i class="bi bi-github"></i> GitHub
+          </a>
+        </div>
       </li>
-      <li>
-        <span style="float: right;">2025</span>
-        <strong>CI/CD Carbon Impact Measurement</strong><br>
-        <small class="text-muted">Intel Collaboration</small>
-        <div>
-          Worked with Intel engineers to measure and analyze the carbon emissions of CI/CD pipelines, using <a href="https://github.com/marketplace/actions/eco-ci-energy-estimation">Eco CI</a>.<br>
-          Automated energy tracking across 30+ GitHub workflows using Python, storing data in PostgreSQL.<br>
+
+      <!-- Project 3 -->
+      <li class="mb-4 p-3 border rounded">
+        <div class="d-flex justify-content-between align-items-start">
+          <div>
+            <strong>CI/CD Carbon Impact Measurement</strong><br>
+            <small class="text-muted">Intel Collaboration</small>
+          </div>
+          <span class="text-muted">2025</span>
         </div>
-        <a href="https://github.com/DaxLynch/ecocli-utility" target="_blank" class="btn btn-sm btn-light mt-1">
-          <i class="bi bi-github"></i> GitHub
-        </a>
+
+        <div class="mt-2">
+          <div class="text-muted small">TL;DR</div>
+          <div>Instrumented GitHub workflows to capture energy/carbon signals for CI jobs.</div>
+        </div>
+
+        <div class="mt-2">
+          <div class="text-muted small">Role</div>
+          <div>Integrated energy measurement steps into existing workflows; automated repetitive YAML edits.</div>
+        </div>
+
+        <div class="mt-2">
+          <div class="text-muted small">Stack</div>
+          <div>GitHub Actions, YAML, Python, <a href="https://github.com/marketplace/actions/eco-ci-energy-estimation">Eco-CI</a>, PostgreSQL</div>
+        </div>
+
+        <div class="mt-2">
+          <div class="text-muted small">Highlights</div>
+          <ul class="mb-2">
+            <li>Instrumented 30+ workflows at the job level.</li>
+            <li>Automated YAML modifications while preserving structure.</li>
+          </ul>
+        </div>
+
+        <div class="mt-2">
+          <a href="https://github.com/DaxLynch/ecocli-utility" target="_blank" class="btn btn-sm btn-light">
+            <i class="bi bi-github"></i> GitHub
+          </a>
+        </div>
       </li>
-      <li>
-        <span style="float: right;">2025</span>
-        <strong>Class Schedule Planner</strong><br>
-        <small class="text-muted">Hackathon</small>
-        <div>
-          Contributed to a full-stack web application to compare student class schedules and identify shared free times.<br>
-          Implemented a Flask backend to parse uploaded HTML schedules and render availability tables using Bootstrap.<br>
+
+      <!-- Project 4 -->
+      <li class="mb-4 p-3 border rounded">
+        <div class="d-flex justify-content-between align-items-start">
+          <div>
+            <strong>Class Schedule Planner</strong><br>
+            <small class="text-muted">Hackathon</small>
+          </div>
+          <span class="text-muted">2025</span>
         </div>
-        <a href="https://github.com/greatcomet1812/Super-Swag-Schedule-Scheduler" target="_blank" class="btn btn-sm btn-light mt-1">
-          <i class="bi bi-github"></i> GitHub
-        </a>
+
+        <div class="mt-2">
+          <div class="text-muted small">TL;DR</div>
+          <div>Web app to compare class schedules and find shared free times.</div>
+        </div>
+
+        <div class="mt-2">
+          <div class="text-muted small">Role</div>
+          <div>Built the Flask backend to parse uploaded HTML schedules and compute availability.</div>
+        </div>
+
+        <div class="mt-2">
+          <div class="text-muted small">Stack</div>
+          <div>Python, Flask, Bootstrap, HTML parsing</div>
+        </div>
+
+        <div class="mt-2">
+          <div class="text-muted small">Highlights</div>
+          <ul class="mb-2">
+            <li>Parsed uploaded schedule HTML files and normalized time slots.</li>
+            <li>Rendered availability tables for quick comparison.</li>
+          </ul>
+        </div>
+
+        <div class="mt-2">
+          <a href="https://github.com/greatcomet1812/Super-Swag-Schedule-Scheduler" target="_blank" class="btn btn-sm btn-light">
+            <i class="bi bi-github"></i> GitHub
+          </a>
+        </div>
       </li>
     </ul>
   </section>
