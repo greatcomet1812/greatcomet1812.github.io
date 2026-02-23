@@ -1,4 +1,4 @@
-/* ========== Global Styles ========== */
+/* ========== GLOBAL STYLES ========== */
 body {
     font-family: system-ui, sans-serif;
     max-width: 800px;
@@ -6,7 +6,7 @@ body {
     padding: 0 20px;
 }
 
-/* ========== Profile Image ========== */
+/* ========== PROFILE IMAGE ========== */
 .profile-pic {
     width: 160px;
     height: 160px;
@@ -52,7 +52,7 @@ ul.experience li {
     /* color: #007bff; */
 }
 
-/* ========== Skills Section ========== */
+/* ========== SKILLS SECTION ========== */
 #skills .badge {
     font-size: 0.8rem;        /* slightly bigger */
     padding: 0.35rem 0.55rem; 
@@ -74,10 +74,33 @@ ul.experience li {
     #skills .badge { font-size: 0.95rem; }
 }
 
-.projects .text-muted.small {
-  letter-spacing: 0.02em;
+
+/* ========== PROJECT SECTION ========== */
+/* Style section labels (TL;DR, Role, Stack, Highlights) */
+#projects .text-muted.small {
+  display: inline-block;
+  margin-top: 0.85rem;
+  margin-bottom: 0.25rem;
+
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
+  color: #6c757d;
 }
-.projects li ul {
-  padding-left: 1.2rem;
+
+/* Improve spacing for highlight lists */
+#projects ul.mb-2 {
+  margin-top: 0.35rem !important;
+  margin-bottom: 0 !important;
+  padding-left: 1.1rem;
+}
+
+#projects ul.mb-2 li {
+  margin-bottom: 0.35rem;
+}
+
+/* Add slight spacing above action buttons */
+#projects .mt-2 a.btn {
+  margin-top: 0.4rem;
 }
