@@ -12,7 +12,7 @@
 <body>
   <!-- PROFILE -->
   <div class="text-center">
-    <img src="profile.jpg" alt="Profile photo of Sewon" class="profile-pic">
+    <img src="assets/profile.jpg" alt="Profile photo of Sewon" class="profile-pic">
     <h1>Sewon Sohn</h1>
     <p class="lead">B.S. in Computer Science</p>
   </div>
@@ -22,10 +22,14 @@
   <section id="about">
     <h2>About Me</h2>
     <p>
-      Hi!👋 I’m a recent Computer Science graduate with hands-on experience building AI-driven backend systems.
+      Hi!👋 I’m a recent Computer Science graduate focused on backend logic, AI-assisted systems, and workflow automation.
+  </p>
     </p>
     <p>
-      My recent work includes backend contributions to a legal AI assistant, building a local university AI assistant, and instrumenting GitHub workflows for energy measurement in collaboration with Intel.
+      My recent work includes 
+      backend contributions to a legal AI assistant, 
+      building a local AI search system using retrieval-based methods (RAG), 
+      and automating GitHub workflow instrumentation for energy measurement in a capstone project with Intel.
     </p>
   </section>
 
@@ -57,7 +61,7 @@
 
         <div class="mt-2">
           <div class="text-muted small">Stack</div>
-          <div>Go, REST APIs</div>
+          <div>Go, Python, REST APIs</div>
         </div>
 
         <div class="mt-2">
@@ -79,7 +83,7 @@
       <li class="mb-4 p-3 border rounded">
         <div class="d-flex justify-content-between align-items-start">
           <div>
-            <strong class="fs-5 fw-semibold">University AI Assistant</strong><br>
+            <strong class="fs-5 fw-semibold">AI Search System (RAG)</strong><br>
             <small class="text-muted">Personal Project</small>
           </div>
           <span class="text-muted">Aug 2025</span>
@@ -87,7 +91,14 @@
 
         <div class="mt-2">
           <div class="text-muted small">TL;DR</div>
-          <div>Local AI assistant for answering university-specific questions using a self-built RAG pipeline.</div>
+          <div>Local AI search system for answering university-specific questions using a self-built RAG pipeline.</div>
+        </div>
+
+        <!-- screenshot image -->
+        <div class="mt-2">
+          <img src="assets/rag-demo-main.png" alt="RAG demo UI"
+              class="img-fluid rounded border"
+              style="max-height: 450px; object-fit: contain;">
         </div>
 
         <div class="mt-2">
@@ -103,7 +114,7 @@
         <div class="mt-2">
           <div class="text-muted small">Highlights</div>
           <ul class="mb-2">
-            <li>Implemented FAISS-based retrieval over embedded university markdown documents.</li>
+            <li>Implemented FAISS-based retrieval over embedded university-related documents.</li>
             <li>Displayed retrieved context and source file references alongside LLM responses.</li>
           </ul>
         </div>
@@ -120,19 +131,25 @@
         <div class="d-flex justify-content-between align-items-start">
           <div>
             <strong class="fs-5 fw-semibold">CI/CD Carbon Impact Measurement</strong><br>
-            <small class="text-muted">Intel Collaboration</small>
+            <small class="text-muted">University of Oregon × Intel Capstone</small>
           </div>
           <span class="text-muted">Jan-Mar 2025</span>
         </div>
 
         <div class="mt-2">
           <div class="text-muted small">TL;DR</div>
-          <div>Instrumented GitHub workflows to capture energy/carbon signals for CI jobs.</div>
+          <div>Automated energy measurement integration into GitHub Actions workflows.</div>
         </div>
 
         <div class="mt-2">
           <div class="text-muted small">Role</div>
-          <div>Integrated energy measurement steps into existing workflows; automated repetitive YAML edits.</div>
+          <div>Built a Python script to insert energy measurement steps into GitHub Actions workflow files.</div>
+        </div>
+
+        <!-- screenshot image -->
+        <div class="mt-2">
+          <img src="assets/ecoci-script-output.jpeg" alt="Eco-CI integration script output"
+              class="img-fluid rounded border">
         </div>
 
         <div class="mt-2">
@@ -159,7 +176,7 @@
       <li class="mb-4 p-3 border rounded">
         <div class="d-flex justify-content-between align-items-start">
           <div>
-            <strong class="fs-5 fw-semibold">Class Schedule Planner</strong><br>
+            <strong class="fs-5 fw-semibold">Schedule Overlap Finder</strong><br>
             <small class="text-muted">Hackathon</small>
           </div>
           <span class="text-muted">Feb 2025</span>
@@ -168,6 +185,13 @@
         <div class="mt-2">
           <div class="text-muted small">TL;DR</div>
           <div>Web app to compare class schedules and find shared free times.</div>
+        </div>
+
+        <div class="mt-2">
+          <img src="assets/scheduler-display.png"
+              alt="Schedule comparison result"
+              class="img-fluid rounded border"
+              style="max-height: 300px; object-fit: contain;">
         </div>
 
         <div class="mt-2">
@@ -256,7 +280,6 @@
     <li><i class="bi bi-envelope-fill"></i> Email: <a href="mailto:sewonsohn00@gmail.com">sewonsohn00@gmail.com</a></li>
     <li><i class="bi bi-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/sewon-sohn-7bbb521ab/" target="_blank">sewon-sohn</a></li>
     <li><i class="bi bi-github"></i> GitHub: <a href="https://github.com/greatcomet1812" target="_blank">@greatcomet1812</a></li>
-    <li><i class="bi bi-twitter"></i> Twitter: <a href="https://twitter.com/sewon__sohn" target="_blank">@sewon__sohn</a></li>
     <!-- <li><i class="bi bi-file-earmark-person"></i> <a href="resume.pdf" target="_blank">Download Resume</a></li> -->
   </ul>
 </section>
